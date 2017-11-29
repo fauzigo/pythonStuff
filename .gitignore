@@ -1,0 +1,46 @@
+#Slackware temps
+*~
+.*~
+
+#SSH
+.ssh/
+!*.pub
+id_rsa
+id_dsa
+
+#SSL
+*.key
+*.crt
+
+#Python
+*.pyc
+
+#OpenStack
+admin_auth
+.novarc
+
+#s3 creds
+.s3cfg
+.aws/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
