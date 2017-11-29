@@ -5,7 +5,7 @@ import os
 import sys
 import subprocess
 
-requiredPath = "/home/fauzi/thing"
+requiredPath = "./thing"
 packagesPath = "/var/log/packages"
 
 def get_file_content(filename):
