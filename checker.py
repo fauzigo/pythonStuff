@@ -38,7 +38,7 @@ def start_check(pathToPackages,pathToRequirements):
                 if required[i] in installed[j].decode('utf8').strip():
                     isit = True
                     print("{} is installed, {}".format(required[i].ljust(20), installed[j].decode() ))
-                    continue
+                    break
             if not isit:
                 print("{} isn't isntalled".format(required[i]))
     else:
